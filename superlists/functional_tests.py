@@ -18,7 +18,7 @@ class NewVisitorTest(unittest.TestCase):
         # Эдит слышала про крутое новое онлайн-приложение со
         # списком неотложных дел. Она решает оценить его домашнюю
         # страницу
-        self.browser.get('http://localhost:8000')
+        self.browser.get('http://localhost:8000/lists/')
 
         # Она видит, что заголовок и шапка страницы говорят о
         # списках неотложных дел
